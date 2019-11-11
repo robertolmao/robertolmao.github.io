@@ -1,0 +1,219 @@
+/*
+Find me @Jayraydee on twitter!
+Terms and Conditions:
+No Refunds on digital goods, If you have questions concerning your order please contact us.
+Your purchase grants you the right to use and display the images for commercial use via streaming,
+recorded and rebroadcasted media. 
+Your license does not include the right to redistribute copies in anyway, including but not limited to:
+advertising, stock photography, print sale profits, or resale of any nature. Your purchase of the original
+files releases The Seller from any liability due to loss or damage of the images, and also releases the Seller
+from any obligation to maintain copies of any digital file, image, or photograph. You hereby grant to The 
+Seller the right to use and publish images, graphics, or media to further promote their services, including 
+portfolio, web site, display, advertisement, and editorial use. The Seller agrees to limit the use of these 
+images, graphics, or media to promotional use only.
+*/
+/*BEGIN Fight Stick Controller Styling*/
+.controller.custom {
+    background: url(base.png) center no-repeat;
+    height: 534px;
+    width: 1322px;
+}
+
+.custom.disconnected {
+    background: url(Disconnected.png) no-repeat;
+    position: absolute;
+   
+}
+
+.custom.disconnected div {
+    display: none;
+}
+
+.custom .triggers {
+    width: 326px;
+    height: 198px;
+    position: absolute;
+    right: 1px;
+    bottom: 70px;
+}
+
+.custom .trigger-button {
+    width: 123px;
+    height: 123px;
+    background: #333333;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+}
+
+.custom .trigger-button.pressed {
+    background: cyan;
+}
+
+.custom .trigger-button.left {
+    position: absolute;
+    float: right;
+    bottom: 79px;
+    right: 917px;
+}
+
+.custom .trigger-button.right {
+     position: absolute;
+      bottom: 80px;
+    right: 755px;  
+}
+
+.custom .bumpers {
+    width: 295px;
+    height: 198px;
+    position: absolute;
+    right: 1px;
+    top: 84px;
+}
+
+.custom .bumper {
+    width: 123px;
+    height: 123px;
+    background: #333333;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+}
+
+.custom .bumper.pressed {
+    background: cyan;
+}
+
+.custom .bumper.left {
+    position: absolute;
+    bottom: 79px;
+    right: 949px;
+}
+
+.custom .bumper.right {
+     position: absolute;
+    bottom: 80px;
+    right: 786px;  
+}
+
+.custom .arrows {
+    position: absolute;
+    width: 70px;
+    height: 217px;
+    top: 53px;
+    left: 49px;
+}
+.custom .stick{
+    position: absolute;
+        position: absolute;
+    width: 123px;
+    height: 123px;
+    background: #333333;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+}
+.custom .stick.pressed.left{
+    background: cyan;}
+.custom .stick.pressed.right{
+    background: cyan;}
+.custom .stick.left{
+    top:26px;
+    left: 26px;
+}
+.custom .stick.right{
+    top:347px;
+    left:26px;
+}
+.custom .back{
+    position: absolute;
+    width: 123px;
+    height: 123px;
+    background: #333333;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+    top:133px;
+    left:-24px;
+}
+.custom .back.pressed{
+    background: cyan;
+}
+.custom .abxy {
+    position: absolute;
+    width: 310px;
+    height: 370px;
+    bottom: 103px;
+    left: 672px;
+}
+
+.custom .button {
+    width: 123px;
+    height: 123px;
+    background: #333333;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+    position: absolute;
+}
+
+.custom .button.pressed {
+    background: cyan;
+}
+
+.custom  .a {
+    bottom: 1px;
+    left: 95px;
+}
+
+.custom  .b {
+   bottom: 46px;
+    left: -60px;
+}
+
+.custom  .x {
+    top: 65px;
+    left: 61px
+}
+
+.custom  .y {
+    right: 279px;
+    top: 18px;
+}
+
+.custom  .face {
+    position: absolute;
+    width: 1122px;
+    height: 534px; 
+    left: 200px;
+}
+
+.custom .face.up.pressed {
+background: url(W.png) no-repeat;
+    width: 1122px;
+    height: 534px;
+     left: 200px;
+}
+
+.custom .face.down.pressed {
+background: url(S.png) no-repeat;
+    width: 1122px;
+    height: 534px; 
+    left: 200px;
+}
+
+.custom .face.left.pressed {
+background: url(A.png) no-repeat;
+    width: 1122px;
+    height: 534px;
+     left: 200px;
+}
+
+.custom  .face.right.pressed {
+        width: 1122px;
+    height: 534px;
+background: url(D.png) no-repeat;
+}
+
+/*END Fight Stick Controller Styling*/
+
